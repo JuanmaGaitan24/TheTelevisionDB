@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TheTelevisionDB</string>
     <string name="irseries">Ver lista de series</string>
@@ -13,5 +14,5 @@
     <string name="NomSerie">Nombre de la Serie:</string>
     <string name="CadenaEmisora">Cadena Emisora:</string>
     <string name="AnnoEstreno">Año de Estreno:</string>
-    <string name="NumeroTemporadas">"Numero de Temporadas:"</string>
+    <string name="NumeroTemporadas">"Numero de Temporadas: "</string>
 </resources>
