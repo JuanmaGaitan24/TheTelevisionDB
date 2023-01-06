@@ -10,8 +10,14 @@
     <string name="AnnadirSerie">Añadir</string>
     <string name="ModSerie">Modificar</string>
     <string name="BorrarSerie">Borrar</string>
-    <string name="NomSerie">Nombre de la Serie:</string>
-    <string name="CadenaEmisora">Cadena Emisora:</string>
-    <string name="AnnoEstreno">Año de Estreno:</string>
-    <string name="NumeroTemporadas">"Numero de Temporadas:"</string>
+    <string name="NomSerie">Nombre:</string>
+    <string name="CadenaEmisora">Emisora:</string>
+    <string name="AnnoEstreno">Año Estreno:</string>
+    <string name="NumeroTemporadas">Nº Temporadas:</string>
+    <string name="UrlPortada">URL Portada(ej. https://series.es/portada.jpg)</string>
+    <string name="RellenarCampos">Por Favor, Rellene todos los campos</string>
+    <string name="OperacionExisto">Operacion realizada con exito</string>
+    <string name="OperacionFallida">Huvo un problema al realizar la operacion</string>
+    <string name="SeleccionarSerie">Por Favor, Seleccione una serie de la lista</string>
+    <string name="RellenarNombre">Por Favor, introduzca un nombre</string>
 </resources>

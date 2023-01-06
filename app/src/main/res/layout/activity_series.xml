@@ -8,10 +8,9 @@
     tools:context=".SeriesActivity">
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="0dp"
+        android:id="@+id/buttonBorrar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/rojofuerte"
@@ -20,9 +19,9 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
-        app:layout_constraintHorizontal_bias="0.414"
-        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider3"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -65,28 +64,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/divider3"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNtemporadas"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNomSerie"
-        app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <EditText
         android:id="@+id/editTextCadEmisora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:backgroundTint="@color/rojofuerte"
         android:ems="10"
         android:hint="@string/Cademisors"
@@ -95,45 +78,49 @@
         android:textColorHint="@color/gris"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAnnoEstreno"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextNtemporadas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:backgroundTint="@color/rojofuerte"
-        android:ems="10"
-        android:hint="@string/Ntemporadas"
-        android:inputType="number"
-        android:textColorHint="@color/gris"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextCadEmisora"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/buttonCogerFoto"
+        android:id="@+id/editTextUrlPortada"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/rojofuerte"
-        android:fontFamily="@font/yearone"
-        android:text="@string/CogerFoto"
-        android:textColor="@color/white"
-        android:textSize="16sp"
+        android:ems="10"
+        android:hint="@string/UrlPortada"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gris"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNtemporadas"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCadEmisora"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextNtemporadas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/rojofuerte"
+        android:ems="10"
+        android:hint="@string/Ntemporadas"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toEndOf="@+id/editTextCadEmisora"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnnoEstreno"
         app:layout_constraintVertical_bias="0.0" />
 
     <View
@@ -147,7 +134,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCogerFoto"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUrlPortada"
         app:layout_constraintVertical_bias="0.0" />
 
     <View
@@ -162,15 +149,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAgregar"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonAgregar"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:backgroundTint="@color/rojofuerte"
         android:fontFamily="@font/yearone"
         android:text="@string/AnnadirSerie"
@@ -178,15 +166,15 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonModificar"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonModificar"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/rojofuerte"
@@ -195,8 +183,8 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBorrar"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider3"
         app:layout_constraintVertical_bias="0.0" />
