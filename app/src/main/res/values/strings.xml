@@ -20,4 +20,11 @@
     <string name="OperacionFallida">Huvo un problema al realizar la operacion</string>
     <string name="SeleccionarSerie">Por Favor, Seleccione una serie de la lista</string>
     <string name="RellenarNombre">Por Favor, introduzca un nombre</string>
+    <string name="ProgramacionHoy">Programas en este Momento</string>
+    <string name="HoraInicio">Hora de Inicio:</string>
+    <string name="Horafin">Hora de Fin:</string>
+    <string name="Titulo">Titulo:</string>
+    <string name="Cadena">Cadena:</string>
+    <string name="Descripcion">Descripcion:</string>
+    <string name="Categoria">Categoria:</string>
 </resources>

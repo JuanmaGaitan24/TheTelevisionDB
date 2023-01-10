@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TheTelevisionDB</string>
-    <string name="irseries">Ver lista de series</string>
-    <string name="irprogramacion">Ver programacion de television</string>
-    <string name="Nomserie">Nombre de la serie</string>
-    <string name="Annoestreno">Año de Estreno</string>
-    <string name="Cademisors">Cadena Emisora</string>
-    <string name="Ntemporadas">Nº Temporadas</string>
-    <string name="CogerFoto">Seleccionar Foto</string>
-    <string name="AnnadirSerie">Añadir</string>
-    <string name="ModSerie">Modificar</string>
-    <string name="BorrarSerie">Borrar</string>
+    <string name="irseries">See list of series</string>
+    <string name="irprogramacion">See television programming</string>
+    <string name="Nomserie">Series name</string>
+    <string name="Annoestreno">Release year</string>
+    <string name="Cademisors">Emitting Chain</string>
+    <string name="Ntemporadas">No. Seasons</string>
+    <string name="CogerFoto">Select Photo</string>
+    <string name="AnnadirSerie">Add</string>
+    <string name="ModSerie">Modify</string>
+    <string name="BorrarSerie">Erase</string>
     <string name="NomSerie">Name:</string>
     <string name="CadenaEmisora">Station:</string>
     <string name="AnnoEstreno">Release year:</string>
     <string name="NumeroTemporadas">No. Seasons:</string>
-    <string name="UrlPortada">URL de la Portada(ej. https://series.es/portada.jpg)</string>
-    <string name="RellenarCampos">Por Favor, Rellene todos los campos</string>
-    <string name="OperacionExisto">Operacion realizada con exito</string>
-    <string name="OperacionFallida">Huvo un problema al realizar la operacion</string>
-    <string name="SeleccionarSerie">Por Favor, Seleccione una serie de la lista</string>
-    <string name="RellenarNombre">Por Favor, introduzca un nombre</string>
+    <string name="UrlPortada">Front Page URL(ej. https://series.es/portada.jpg)</string>
+    <string name="RellenarCampos">Please fill in all the fields</string>
+    <string name="OperacionExisto">Operation carried out successfully</string>
+    <string name="OperacionFallida">There was a problem performing the operation</string>
+    <string name="SeleccionarSerie">Please select a series from the list</string>
+    <string name="RellenarNombre">Please enter a name</string>
+    <string name="ProgramacionHoy">Programs at this Moment</string>
+    <string name="HoraInicio">Start Time:</string>
+    <string name="Horafin">End time:</string>
+    <string name="Titulo">Title:</string>
+    <string name="Cadena">Network:</string>
+    <string name="Descripcion">Description:</string>
+    <string name="Categoria">Category:</string>
 </resources>

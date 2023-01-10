@@ -46,7 +46,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 public class SeriesActivity extends AppCompatActivity {
 
-    static final String SERVIDOR = "http://192.168.0.107/nube/";
+    static final String SERVIDOR = "http://192.168.56.1/nube/";
     ListView ListaSeries;
     TextView txtNombreSerie, txtAnnoSerie, txtCadEmisora, txtNumTemporadas, txtUrlPortada;
     Button btnAgregar, btnModificar, btnEliminar;
@@ -159,12 +159,12 @@ public class SeriesActivity extends AppCompatActivity {
     }
 
     private void MostrarSeries() {
-        DescargarCSV descargarCSV = new DescargarCSV();
-        descargarCSV.execute("listadoCSV.php");
+        /*DescargarCSV descargarCSV = new DescargarCSV();
+        descargarCSV.execute("listadoCSV.php");*/
         /*DescargarXML descargarXML = new DescargarXML();
         descargarXML.execute("listadoXML.php");*/
-        /*DescargarJSON descargarJSON = new DescargarJSON();
-        descargarJSON.execute("listadoJSON.php");*/
+        DescargarJSON descargarJSON = new DescargarJSON();
+        descargarJSON.execute("listadoJSON.php");
     }
 
     private class Borrar extends  AsyncTask<String, Void, Void>{

@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         btnIrProgramacion = findViewById(R.id.buttonProgramacion);
         logo = findViewById(R.id.imageViewLogo);
 
+        logo.setImageResource(R.drawable.app_icon);
+
         btnIrSeries.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
